@@ -5,6 +5,7 @@
 
 ### Aliases
 alias vi=vim
+alias greatwhite='ssh -X greatwhite.ics.cs.cmu.edu'
 
 ### Git
 . ~/.git.bash
