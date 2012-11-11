@@ -21,9 +21,10 @@ function _git_prompt() {
     fi
 }
 function _prompt_command() {
+    txt_red='\[\e[0;36m\]'
     txt_bold_green='\[\e[1;31m\]'
     txt_reset='\[\e[0m\]'
-    PS1="`_git_prompt`""[$txt_bold_green\w$txt_reset]$ "
+    PS1="`_git_prompt`""[$txt_red\h $txt_bold_green\w$txt_reset]$ "
 }
 PROMPT_COMMAND=_prompt_command
 
