@@ -1,0 +1,12 @@
+*
+!.gitignore
+
+!.gitconfig
+!.bash_profile
+!.bash_rc
+!.cshrc
+!.git-completion.bash
+!.git.bash
+!.gitignore_global
+!.screenrc
+!.vimrc
