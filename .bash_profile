@@ -1,5 +1,5 @@
 ### Andrew/AFS
-aklog cs.cmu.edu
+[ -a /usr/bin/aklog ] && aklog cs.cmu.edu
 
 ### Prompt -- set in ~/.git.bash
 
