@@ -3,7 +3,7 @@
 
 !.gitconfig
 !.bash_profile
-!.bash_rc
+!.bashrc
 !.cshrc
 !.git-completion.bash
 !.git.bash
