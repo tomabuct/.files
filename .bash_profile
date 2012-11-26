@@ -12,3 +12,6 @@ alias gw='ssh -X greatwhite.ics.cs.cmu.edu'
 
 ### Other
 . ~/.bashrc
+
+### Autolab
+[ `hostname` == "greatwhite.ics.cs.cmu.edu" ] && cd ~/autolab/autolab2
