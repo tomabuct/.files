@@ -32,3 +32,9 @@ PROMPT_COMMAND=_prompt_command
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+### Aliases
+alias gs='git status'
+alias gco='git checkout'
+alias gl='git log'
+alias gau='git add -u'
