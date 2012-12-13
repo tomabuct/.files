@@ -1,10 +1,10 @@
 *
 !.gitignore
-
 !.gitconfig
 !.bash_profile
 !.bashrc
 !.cshrc
+!.login
 !.git-completion.bash
 !.git.bash
 !.gitignore.global
