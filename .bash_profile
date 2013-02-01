@@ -6,6 +6,7 @@
 ### Aliases
 alias vi=vim
 alias gw='ssh -X greatwhite.ics.cs.cmu.edu'
+alias andrew='ssh -X unix.andrew.cmu.edu'
 alias ip=ipython
 
 ### Git
