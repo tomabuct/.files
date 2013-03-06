@@ -4,3 +4,4 @@ set shiftwidth=2
 set expandtab
 set mouse=a
 set ttymouse=xterm2
+au BufNewFile,BufRead *.erb set filetype=eruby 
