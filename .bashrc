@@ -3,6 +3,7 @@ export EDITOR=vim
 
 ### Autolab
 export PATH=$PATH:$HOME/.rvm/bin:/usr/share/tashi/bin # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/local/Cellar/smlnj/110.75/libexec/bin
 export PYTHONPATH=$PYTHON:/usr/share/tashi/src/:/usr/share/tango2
 
 ### RVM
