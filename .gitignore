@@ -10,3 +10,8 @@
 !.gitignore.global
 !.screenrc
 !.vimrc
+!.config
+!.config/fish
+!.config/fish/functions
+!.config/fish/functions/*
+!.config/fish/config.fish
