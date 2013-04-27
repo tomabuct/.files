@@ -18,4 +18,4 @@ alias gd='git diff'
 
 ### rbenv
 set PATH $HOME/.rbenv/shims $PATH
-rbenv rehash >/dev/null ^&1
+# rbenv rehash >/dev/null ^&1 -- need to port to fish
