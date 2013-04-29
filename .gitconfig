@@ -2,6 +2,6 @@
 name=Tom Abraham
 email=tabraham@andrew.cmu.edu
 [core]
-	excludesfile = ~/.gitignore.global
+  excludesfile = ~/.gitignore.global
 [push]
-	default = tracking
+  default = tracking
