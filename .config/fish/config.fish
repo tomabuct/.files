@@ -7,7 +7,7 @@ alias gw='ssh -X greatwhite.ics.cs.cmu.edu'
 alias andrew='ssh -X unix.andrew.cmu.edu'
 alias ip=ipython
 alias ghc='ssh -X ghc23.ghc.andrew.cmu.edu'
-alias sml='rlwrap sml'
+alias sml='rlwrap sml -Cprint.depth=999 -Cprint.length=999 -Cprint.string-depth=999'
 
 ### Git Aliases
 alias gs='git status'
