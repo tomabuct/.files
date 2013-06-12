@@ -15,6 +15,7 @@ alias gco='git checkout'
 alias gl='git log'
 alias gau='git add -u'
 alias gd='git diff'
+alias gbc='git branch --contains'
 
 ### rbenv
 set PATH $HOME/.rbenv/shims $PATH
