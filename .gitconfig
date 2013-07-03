@@ -1,6 +1,6 @@
 [user]
 name=Tom Abraham
-email=tabraham@andrew.cmu.edu
+	email = tabraham@yelp.com
 [core]
   excludesfile = ~/.gitignore.global
 [push]

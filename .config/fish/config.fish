@@ -20,3 +20,6 @@ alias gbc='git branch --contains'
 ### rbenv
 set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1 -- need to port to fish
+
+### import Yelp
+. yelp.fish
