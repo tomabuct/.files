@@ -1,5 +1,5 @@
 [user]
-name=Tom Abraham
+	name = Tom Abraham
 	email = tabraham@yelp.com
 [core]
   excludesfile = ~/.gitignore.global
