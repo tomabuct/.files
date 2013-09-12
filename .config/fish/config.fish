@@ -16,6 +16,7 @@ alias gl='git log'
 alias gau='git add -u'
 alias gd='git diff'
 alias gsh='git show'
+alias gsubs='git submodule update --init --recursive'
 
 ### rbenv
 set PATH $HOME/.rbenv/shims $PATH
