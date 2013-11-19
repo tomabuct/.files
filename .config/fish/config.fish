@@ -23,5 +23,9 @@ alias gsubs='git submodule update --init --recursive'
 set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1 -- need to port to fish
 
+### go
+set -x GOPATH $HOME/Code/go
+set PATH $PATH $GOPATH/bin
+
 ### import Yelp
 . ~/.config/fish/yelp.fish
