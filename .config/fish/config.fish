@@ -20,8 +20,8 @@ alias gsh='git show'
 alias gsubs='git submodule update --init --recursive'
 
 ### rbenv
-set PATH $HOME/.rbenv/shims $PATH
-# rbenv rehash >/dev/null ^&1 -- need to port to fish
+set PATH $HOME/.rbenv/bin $PATH
+rbenv init -
 
 ### go
 set -x GOPATH $HOME/Code/go
