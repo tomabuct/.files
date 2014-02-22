@@ -21,7 +21,9 @@ alias gsubs='git submodule update --init --recursive'
 
 ### rbenv
 set PATH $HOME/.rbenv/bin $PATH
-rbenv init -
+if status --is-interactive
+  . (rbenv init - | psub)
+end
 
 ### go
 set -x GOPATH $HOME/Code/go
