@@ -17,3 +17,5 @@
 !.config/fish/config.fish
 !.config/fish/yelp.fish
 !.ssh/config
+!.gitattributes
+!sqlite2txt

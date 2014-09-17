@@ -3,5 +3,8 @@
 	email = tabraham@yelp.com
 [core]
   excludesfile = ~/.gitignore.global
+  attributesfile = ~/.gitattributes
 [push]
   default = tracking
+[diff "sqlite"]
+  textconv  = ~/sqlite2txt
