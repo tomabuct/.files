@@ -28,6 +28,3 @@ end
 ### go
 set -x GOPATH $HOME/Code/go
 set PATH $PATH $GOPATH/bin
-
-### import Yelp
-. ~/.config/fish/yelp.fish
