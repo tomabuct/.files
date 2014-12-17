@@ -21,7 +21,7 @@ alias gsubs='git submodule update --init --recursive'
 
 ### rbenv
 set PATH $HOME/.rbenv/bin $PATH
-if status --is-interactive
+if type rbenv > /dev/null; and status --is-interactive
   . (rbenv init - | psub)
 end
 
