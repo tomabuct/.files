@@ -11,3 +11,6 @@ export PYTHONPATH=$PYTHON:/usr/share/tashi/src/:/usr/share/tango2
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Apple
+. ~/.apple.bash

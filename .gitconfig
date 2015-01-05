@@ -1,6 +1,6 @@
 [user]
 	name = Tom Abraham
-	email = tabraham@yelp.com
+	email = t_abraham@apple.com
 [core]
   excludesfile = ~/.gitignore.global
   attributesfile = ~/.gitattributes

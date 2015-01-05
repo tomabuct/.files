@@ -1,0 +1,2 @@
+### Pepper
+. ~/.kipd/start

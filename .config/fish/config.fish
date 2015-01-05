@@ -28,3 +28,6 @@ end
 ### go
 set -x GOPATH $HOME/Code/go
 set PATH $PATH $GOPATH/bin
+
+### Apple
+. ~/.config/fish/apple.fish
