@@ -1,34 +1,16 @@
 function fish_prompt --description 'Write out the prompt'
-  echo ''
+	# Just calculate these once, to save a few cycles when displaying the prompt
+   if not set -q __fish_prompt_hostname
+       set -g __fish_prompt_hostname (hostname -s)
+   end
 
-  set -l last_status $status
+   if not set -q __fish_prompt_normal
+       set -g __fish_prompt_normal (set_color normal)
+   end
 
-  # User
-  set_color $fish_color_user
-  echo -n (whoami)
-  set_color normal
+   if not set -q __fish_prompt_cwd
+       set -g __fish_prompt_cwd (set_color $fish_color_cwd)
+   end
 
-  echo -n '@'
-
-  # Host
-  set_color $fish_color_host
-  echo -n (hostname -s)
-  set_color normal
-
-  echo -n ':'
-
-  # PWD
-  set_color $fish_color_cwd
-  echo -n (prompt_pwd)
-  set_color normal
-
-  __terlar_git_prompt
-  echo
-
-  if not test $last_status -eq 0
-    set_color $fish_color_error
-  end
-
-  echo -n '➤ '
-  set_color normal
+   echo -n -s "$USER" @ "$__fish_prompt_hostname" ' ' "$__fish_prompt_cwd" (prompt_pwd) (__fish_vcs_prompt) "$__fish_prompt_normal" '> '
 end

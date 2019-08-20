@@ -1,5 +1,8 @@
 ### Path
 set PATH $HOME/bin $PATH
+set PATH $HOME/bin/arcanist/bin/ $PATH
+set PATH $HOME/Code/devtools $PATH
+set PATH $HOME/.gem/ruby/2.6.0/bin $PATH
 
 ### Aliases
 alias vi=vim
@@ -18,16 +21,11 @@ alias gau='git add -u'
 alias gd='git diff'
 alias gsh='git show'
 alias gsubs='git submodule update --init --recursive'
-
-### rbenv
-set PATH $HOME/.rbenv/bin $PATH
-if type rbenv > /dev/null; and status --is-interactive
-  . (rbenv init - | psub)
-end
-
-### go
-set -x GOPATH $HOME/Code/go
-set PATH $PATH $GOPATH/bin
+alias gll='git log --pretty="* %C(yellow)%h%Creset %C(red)%ae%Creset %s%C(yellow bold)%d%Creset"'
 
 ### Apple
 . ~/.config/fish/apple.fish
+test -e "$HOME"/.kipd/start.fish ; and source "$HOME"/.kipd/start.fish
+
+### rbenv
+status --is-interactive; and source (rbenv init -|psub)
