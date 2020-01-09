@@ -13,6 +13,9 @@ alias ip=ipython
 alias ghc='ssh -X ghc23.ghc.andrew.cmu.edu'
 alias sml='rlwrap sml -Cprint.depth=999 -Cprint.length=999 -Cprint.string-depth=999'
 
+### Andrey
+alias dwupwatch='sudo darwinup -p (xcrun -sdk watchos.internal --show-sdk-path)'
+
 ### Git Aliases
 alias gs='git status'
 alias gco='git checkout'
