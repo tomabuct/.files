@@ -31,3 +31,5 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export PATH="~/Code/devtools:$PATH"
 
 [ -e ~/.kipd/start ] && . ~/.kipd/start
+
+export PATH="$HOME/.cargo/bin:$PATH"

@@ -3,6 +3,7 @@ set PATH $HOME/bin $PATH
 set PATH $HOME/bin/arcanist/bin/ $PATH
 set PATH $HOME/Code/devtools $PATH
 set PATH $HOME/.gem/ruby/2.6.0/bin $PATH
+set PATH $HOME/.cargo/bin $PATH
 
 ### Aliases
 alias vi=vim
