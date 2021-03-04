@@ -14,3 +14,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Apple
 . ~/.apple.bash
+
+### Rust
+source "$HOME/.cargo/env"
