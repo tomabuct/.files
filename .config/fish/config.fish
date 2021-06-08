@@ -32,7 +32,7 @@ alias gll='git log --pretty="* %C(yellow)%h%Creset %C(red)%ae%Creset %s%C(yellow
 test -e "$HOME"/.kipd/start.fish ; and source "$HOME"/.kipd/start.fish
 
 ### rbenv
-status --is-interactive; and source (rbenv init -|psub)
+# status --is-interactive; and source (rbenv init -|psub)
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
