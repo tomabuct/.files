@@ -4,6 +4,8 @@
 !.bash_profile
 !.bashrc
 !.cshrc
+!.zshrc
+!.zprofile
 !.login
 !.git-completion.bash
 !.git.bash
