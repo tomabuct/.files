@@ -15,3 +15,9 @@
 	required = true
 [pull]
 	rebase = true
+[gpg]
+	format = x509
+[commit]
+	gpgsign = true
+[gpg "x509"]
+	program = /usr/local/bin/ac-sign

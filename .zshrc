@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -105,5 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # iTerm2
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# kip
-[[ -f "$HOME/.kipd/start.zsh" ]] && . "$HOME/.kipd/start.zsh"
+# kip9
+fpath=(~/.config/zsh/completion $fpath)
+autoload -Uz compinit
+compinit
+bindkey -s \\ek 'kip9 '
