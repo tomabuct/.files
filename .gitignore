@@ -12,7 +12,12 @@
 !.gitignore.global
 !.screenrc
 !.vimrc
+!.config
+!.config/fish
+!.config/fish/functions
+!.config/fish/functions/*
+!.config/fish/config.fish
+!.config/com.googlecode.iterm2.plist
 !.ssh/config
 !.gitattributes
 !sqlite2txt
-!.config/com.googlecode.iterm2.plist
