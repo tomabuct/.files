@@ -32,4 +32,4 @@ export PATH="~/Code/devtools:$PATH"
 
 [ -e ~/.kipd/start ] && . ~/.kipd/start
 
-source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"

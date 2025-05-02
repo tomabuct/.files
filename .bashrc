@@ -17,3 +17,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Rust
 source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
